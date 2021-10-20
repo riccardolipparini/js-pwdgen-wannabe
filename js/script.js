@@ -15,4 +15,5 @@ console.log(colore)
 let number = 21
 console.log(number)
 
-document.getElementById("personalpassword").innerHTML = `la tua password personale sarà ${(name)}`
+const password = name+cognome+colore+number;
+document.getElementById("personalpassword").innerHTML = `la tua password personale sarà ${password}`
